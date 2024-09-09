@@ -6,12 +6,12 @@
   gap: 16px;
   width: 320px;
   min-width: 320px;
-  min-height: 800px;
   height: 100vh;
   background-color: $botton-header-background-color;
   box-shadow: 16px 0px 52px 0px $aside-shadow;
   padding: 40px 32px;
   transition: 0.5s;
+  overflow-y: auto;
 }
 
 @media (min-width: 768px) {
@@ -23,7 +23,6 @@
     gap: 16px;
     width: 440px;
     min-width: 440px;
-    min-height: 800px;
     height: 100vh;
     background-color: $botton-header-background-color;
     box-shadow: 16px 0px 52px 0px $aside-shadow;
