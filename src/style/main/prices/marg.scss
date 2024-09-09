@@ -1,0 +1,9 @@
+.marg {
+  margin-top: auto;
+}
+
+@media (min-width: 768px) {
+  .marg {
+    margin-top: 0px;
+  }
+}

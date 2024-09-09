@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .tech-types-vis-hiden__button {
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+    padding-left: 32px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .tech-types-vis-hiden__button::before {
+    position: absolute;
+    content: url(../../../img/strelki.svg);
+    top: 0px;
+    left: 8px;
+    transition: transform 0.5s ease-out;
+  }
+
+  .tech-types-vis-hiden__button.active::before {
+    transform: rotate(180deg);
+}
+
+}
+
+@media (min-width: 1440px) {
+}

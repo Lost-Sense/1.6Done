@@ -1,0 +1,26 @@
+.swipper__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 72px;
+  width: 240px !important; */
+  background-color: $h2-background;
+  border: 1px solid $divider-backgrond;
+  border-radius: 6px;
+  padding: 16px;
+  min-width: 240px;
+}
+
+@media (min-width: 768px) {
+  .swipper__button {
+    margin-right: 0px;
+    min-width: 224px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .swipper__button {
+    height: 72px;
+    min-width: 240px;
+  }
+}

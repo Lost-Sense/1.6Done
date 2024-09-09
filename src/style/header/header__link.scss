@@ -1,0 +1,19 @@
+.header__link {
+  position: relative;
+}
+
+.header__link::after {
+  content: "";
+  position: absolute;
+  height: 32px;
+  width: 2px;
+  background-color: $divider-backgrond;
+  top: -25px;
+  left: 114px;
+}
+
+@media (min-width: 768px) {
+  .header__link::after {
+    left: -15px;
+  }
+}

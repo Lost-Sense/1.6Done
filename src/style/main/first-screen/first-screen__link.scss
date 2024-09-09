@@ -1,0 +1,11 @@
+@media (min-width:1120px) {
+  .first-screen__link {
+    margin-right: 8px;
+    color: $text-color;
+    font-weight: 600;
+  }
+
+  .first-screen__link:active, .first-screen__link:visited {
+    color: $text-color;
+  }
+  }

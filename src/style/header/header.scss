@@ -1,0 +1,16 @@
+.header {
+  background-color: $botton-header-background-color;
+  padding: 18px 16px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 18px 24px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    display: none;
+  }
+}

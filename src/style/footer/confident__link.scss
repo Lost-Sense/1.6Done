@@ -1,0 +1,35 @@
+.confident__link {
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  color: $link-color;
+}
+
+.info__link:active {
+  color: $link-color;
+}
+
+.info__link:visited {
+  color: $text-color;
+}
+
+
+@media (min-width: 768px) {
+  .confident__link {
+    max-width: 220px;
+  }
+
+  .confident__link:nth-child(3) {
+    text-align:end;
+  }
+
+  .confident__link:nth-child(1) {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1440px) {
+  .confident__link {
+    max-width: 330px;
+  }
+}

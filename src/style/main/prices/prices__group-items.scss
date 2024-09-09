@@ -1,0 +1,16 @@
+.prices__group-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .prices__group-items {
+    gap: 20px;
+    width: 65%;
+    min-width: 220px;
+  }
+}
+
+@media (min-width: 1440px) {
+}

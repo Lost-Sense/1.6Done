@@ -1,0 +1,31 @@
+.first-screen__title {
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+}
+
+.first-screen__title::before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 4px;
+  background-color: $plashka-gackground;
+  top: -3px;
+  left: -16px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+@media (min-width: 768px) {
+  .first-screen__title::before {
+    left: -24px;
+    top: -1px;
+  }
+}
+
+@media (min-width:1440px) {
+  .first-screen__title::before {
+    left: -32px;
+    top: -1px;
+  }
+}

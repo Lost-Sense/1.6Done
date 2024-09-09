@@ -1,0 +1,22 @@
+.tech-types__link {
+  color: $text-color;
+  font-weight: 600;
+}
+
+.tech-types__link:active {
+  color: $link-color;
+}
+
+.tech-types__link:visited {
+  color: $text-color;
+}
+
+.tech-types__link:hover {
+  color: $link-color;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

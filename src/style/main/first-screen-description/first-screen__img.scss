@@ -1,0 +1,17 @@
+.first-screen__img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .first-screen__img {
+    width: 360px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .first-screen__img {
+    width: 50%;
+    max-width: 540px;
+  }
+}

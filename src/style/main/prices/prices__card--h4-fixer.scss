@@ -1,0 +1,24 @@
+.prices__card--h4-fixer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  background-color: transparent;
+  border: 1px solid $divider-backgrond;
+  border-radius: 6px;
+  min-width: 260px;
+}
+
+@media (min-width: 768px) {
+  .prices__card--h4-fixer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px;
+    border: 1px solid transparent;
+    border-bottom-color: transparent;
+    border-radius: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+}

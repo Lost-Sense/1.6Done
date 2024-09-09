@@ -1,0 +1,14 @@
+.group-swipper-items {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .group-swipper-items {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+}

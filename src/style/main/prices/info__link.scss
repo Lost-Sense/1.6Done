@@ -1,0 +1,33 @@
+.info__link {
+  color: $text-color;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+}
+
+.info__link:active {
+  color: $link-color;
+}
+
+.info__link:visited {
+  color: $text-color;
+}
+
+.info__link:hover {
+  color: $link-color;
+}
+
+.info__link::after {
+  content: url(../../../img/more.svg);
+  top: 24px;
+  position: absolute;
+}
+
+@media (min-width: 331px) {
+  .info__link::after {
+    content: url(../../../img/more.svg);
+    top: 0px;
+    position: absolute;
+  }
+}

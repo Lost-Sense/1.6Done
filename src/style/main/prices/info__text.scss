@@ -1,0 +1,18 @@
+.info__text {
+  padding-bottom: 16px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .info__text {
+    padding-bottom: 16px;
+    width: 60%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .info__text {
+    width: 40%;
+  }
+}

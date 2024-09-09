@@ -1,0 +1,15 @@
+.prices__groups {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .prices__groups {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    min-width: 45%;
+    justify-content: space-between;
+  }
+}

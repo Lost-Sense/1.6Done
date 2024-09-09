@@ -1,0 +1,17 @@
+.modal-callback__group-items {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .modal-callback__group-items {
+    padding-top: 32px;
+    position: relative;
+  }
+  
+}
+
+@media (min-width: 1440px) {
+}

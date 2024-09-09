@@ -1,0 +1,26 @@
+.modal-callback__button {
+  margin-top: 8px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  padding: 4px 12px;
+  border: none;
+  background-color: $button-background;
+  width: 136px;
+  color: $botton-header-background-color;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.modal-callback__button:active {
+  scale: 0.9;
+}
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

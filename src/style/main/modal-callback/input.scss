@@ -1,0 +1,16 @@
+.input {
+  padding: 12px 16px;
+  border: 1px solid $divider-backgrond;
+  border-radius: 6px;
+  color: $text-color;
+}
+
+.input::placeholder {
+  color: $placeholder-color;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

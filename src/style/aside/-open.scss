@@ -1,0 +1,20 @@
+.-open {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 800px;
+  height: 100vh;
+  background-color: $botton-header-background-color;
+  box-shadow: 16px 0px 52px 0px $aside-shadow;
+  transition: 0.5s;
+  z-index: 1000;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

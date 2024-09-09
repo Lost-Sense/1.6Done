@@ -1,0 +1,22 @@
+.aside-list__link {
+  transition: 0.5s;
+}
+
+.aside-list__link:focus::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  background-color: $plashka-gackground;
+  top: -6px;
+  left: -24px;
+  display: block;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

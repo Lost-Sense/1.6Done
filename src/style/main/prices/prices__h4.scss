@@ -1,0 +1,15 @@
+.prices__h4 {
+  font-size: 14px;
+  color: $link-color;
+}
+
+
+
+@media (min-width: 768px) {
+  .prices__h4 {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+}

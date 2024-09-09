@@ -1,0 +1,145 @@
+
+/* header */
+@import './header/header.scss';
+@import './header/header-menu.scss';
+@import './header/buttons.scss';
+@import './header/header-list.scss';
+@import './header/header-list__item.scss';
+@import './header/header__button.scss';
+@import './header/header__link.scss';
+@import './header/tablet.scss';
+/* /header */
+
+/* aside */
+@import './aside/aside-footer.scss';
+@import './aside/aside-header.scss';
+@import './aside/aside-header__button.scss';
+@import './aside/aside-header__link.scss';
+@import './aside/aside-list.scss';
+@import './aside/aside-list__item.scss';
+@import './aside/aside-list__link.scss';
+@import './aside/aside-navigation.scss';
+@import './aside/aside.scss';
+@import './aside/aside__group-buttons.scss';
+@import './aside/contacts.scss';
+@import './aside/contacts__item.scss';
+@import './aside/group-buttons__button.scss';
+@import './aside/link.scss';
+@import './aside/number-phone.scss';
+@import './aside/switch-lang.scss';
+@import './aside/switch-lang__item.scss';
+@import './aside/exit-button.scss';
+@import './aside/-open.scss';
+/* /aside */
+
+/* main */
+@import './main/page.scss';
+@import './main/overlay.scss';
+@import './main/overlay-open.scss';
+
+/* modal-callback */
+@import './main/modal-callback/input.scss';
+@import './main/modal-callback/message.scss';
+@import './main/modal-callback/modal-callback.scss';
+@import './main/modal-callback/modal-callback__button.scss';
+@import './main/modal-callback/modal-callback__link.scss';
+@import './main/modal-callback/modal-callback__text.scss';
+@import './main/modal-callback/modal-callback__title.scss';
+@import './main/modal-callback/modal-callback__close-button.scss';
+@import './main/modal-callback/modal-callback__group-items.scss';
+@import './main/modal-callback/overlay-callback.scss';
+@import './main/modal-callback/over-opn.scss';
+@import './main/modal-callback/callback-open.scss';
+/* /modal-callback */
+
+
+/* modal-feedback */
+@import './main/modal-feedback/feedback-open.scss';
+@import './main/modal-feedback/modal-feedback.scss';
+@import './main/modal-feedback/modal-feedback__button.scss';
+@import './main/modal-feedback/modal-feedback__close-button.scss';
+@import './main/modal-feedback/modal-feedback__group-items.scss';
+@import './main/modal-feedback/modal-feedback__link.scss';
+@import './main/modal-feedback/modal-feedback__text.scss';
+@import './main/modal-feedback/modal-feedback__title.scss';
+/* /modal-feedback */
+
+/* first-screen */
+@import './main/first-screen/first-screen.scss';
+@import './main/first-screen/first-screen__button.scss';
+@import './main/first-screen/first-screen__content.scss';
+@import './main/first-screen/first-screen__group-buttons.scss';
+@import './main/first-screen/first-screen__link.scss';
+@import './main/first-screen/first-screen__title.scss';
+@import './main/first-screen/main.scss';
+@import './main/first-screen/pc.scss';
+/* /first-screen */
+
+/* first-screen navigation */
+@import './main/navigation/navigation.scss';
+@import './main/navigation/navigation__button.scss';
+@import './main/navigation/navigation__item.scss';
+@import './main/navigation/navigation__link.scss';
+@import './main/navigation/navigation__list.scss';
+/* /first-screen navigation */
+
+/* first-screen discription */
+@import './main/first-screen-description/first-screen-description.scss';
+@import './main/first-screen-description/first-screen__group-text.scss';
+@import './main/first-screen-description/first-screen__img.scss';
+@import './main/first-screen-description/first-screen__text.scss';
+@import './main/first-screen-description/read-more.scss';
+@import './main/first-screen-description/read-more__button.scss';
+@import './main/first-screen-description/text-hide.scss';
+/* /first-screen discription */
+
+/* repair */
+@import './main/repair/group-swipper-items.scss';
+@import './main/repair/repair-swiper.scss';
+@import './main/repair/repair.scss';
+@import './main/repair/subtitle.scss';
+@import './main/repair/subtitle__title.scss';
+@import './main/repair/swipper.scss';
+@import './main/repair/swipper__button.scss';
+@import './main/repair/swipper__img.scss';
+@import './main/repair/vis-hiden.scss';
+@import './main/repair/vis-hiden__button.scss';
+/* /repair */
+
+/* tech-types */
+@import './main/tech-types/tech-types-swipper.scss';
+@import './main/tech-types/tech-types-swipper__button.scss';
+@import './main/tech-types/tech-types-swipper__img.scss';
+@import './main/tech-types/tech-types-vis-hiden.scss';
+@import './main/tech-types/tech-types-vis-hiden__button.scss';
+@import './main/tech-types/tech-types.scss';
+@import './main/tech-types/tech-types__link.scss';
+@import './main/tech-types/tech-types-swipper__content.scss';
+/* /tech-types */
+
+/* prices */
+@import './main/prices/prices-swipper.scss';
+@import './main/prices/prices-swipper__content.scss';
+@import './main/prices/prices__button.scss';
+@import './main/prices/prices__card.scss';
+@import './main/prices/prices__text.scss';
+@import './main/prices/prices__group-items.scss';
+@import './main/prices/prices__h4.scss';
+@import './main/prices/prices__group-text.scss';
+@import './main/prices/marg.scss';
+@import './main/prices/prices_groups.scss';
+@import './main/prices/prices__conteiner.scss';
+@import './main/prices/border-fix.scss';
+@import './main/prices/h4.scss';
+@import './main/prices/prices__card--h4-fixer.scss';
+@import './main/prices/info.scss';
+@import './main/prices/info__link.scss';
+@import './main/prices/info__text.scss';
+/* /prices */
+/* /main */
+
+/* footer */
+@import './footer/footer.scss';
+@import './footer/confident.scss';
+@import './footer/confident__link.scss';
+/* /footer */

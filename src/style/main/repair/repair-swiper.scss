@@ -1,0 +1,17 @@
+.repair-swipper {
+  background-color: $body-background;
+  padding: 16px 16px;
+}
+
+@media (min-width: 768px) {
+  .repair-swipper {
+    padding: 24px 24px;
+  }
+  
+}
+
+@media (min-width: 1440px) {
+  .repair-swipper {
+    padding: 32px 32px;
+  }
+}

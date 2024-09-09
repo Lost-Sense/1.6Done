@@ -1,0 +1,26 @@
+.modal-feedback__title {
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  // padding-left: 32px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.modal-feedback__title::before {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 4px;
+  top: -4px;
+  left: -32px;
+  background-color: $plashka-gackground;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

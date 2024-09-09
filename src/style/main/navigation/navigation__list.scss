@@ -1,0 +1,24 @@
+.navigation__list {
+  display: flex;
+  gap: 1px;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.navigation__list::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+  .navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+    gap: 0;
+  }
+}

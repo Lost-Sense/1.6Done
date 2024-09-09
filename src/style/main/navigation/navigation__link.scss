@@ -1,0 +1,26 @@
+.navigation__link, .navigation__link:active, .navigation__link:visited {
+  color: $link-color;
+  font-size: 16px;
+  padding: 8px 16px;
+  line-height: 24px;
+}
+
+.navigation__link:focus {
+  border: 1px solid $nav-button-border-color;
+  padding: 8px 16px;
+  background-color: $botton-header-background-color;
+  border-radius: 6px;
+}
+
+.navigation__link:hover {
+  border: 1px solid $nav-button-border-color;
+  padding: 8px 16px;
+  background-color: $botton-header-background-color;
+  border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

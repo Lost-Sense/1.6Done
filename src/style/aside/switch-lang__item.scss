@@ -1,0 +1,28 @@
+.switch-lang___item {
+  color: $text-color;
+}
+
+.switch-lang___item:hover {
+  color: $link-color;
+  animation-name: switch-lang__item-animation;
+  animation-duration: 0.5s;
+}
+
+.switch-lang___item:focus {
+  color: $link-color;
+}
+
+@keyframes switch-lang__item-animation {
+  from {
+    color:$text-color;
+  }
+  to {
+    color: $link-color;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

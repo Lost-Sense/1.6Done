@@ -1,0 +1,28 @@
+.read-more__button {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.read-more__button::before {
+  content: url('/src/img/expand.png');
+  position: absolute;
+  left: -6px;
+  top: -4px;
+  transition: transform 0.5s ease-out;
+}
+
+.read-more__button.active::before {
+  top: -7px;
+  transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

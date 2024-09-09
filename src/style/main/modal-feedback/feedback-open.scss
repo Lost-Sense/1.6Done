@@ -1,0 +1,36 @@
+.feedback-open {
+  position: fixed;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 320px;
+  min-height: 800px;
+  height: 100vh;
+  background-color: $botton-header-background-color;
+  box-shadow: 16px 0px 52px 0px $aside-shadow;
+  padding: 40px 32px;
+  transition: 0.5s;
+  z-index: 1001;
+}
+
+@media (min-width: 768px) {
+  .feedback-open {
+    position: fixed;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 440px;
+    min-height: 800px;
+    height: 100vh;
+    background-color: $botton-header-background-color;
+    box-shadow: 16px 0px 52px 0px $aside-shadow;
+    padding: 40px 32px;
+    transition: 0.5s;
+    z-index: 1001;
+  }
+}
+
+@media (min-width: 1440px) {
+}

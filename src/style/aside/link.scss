@@ -1,0 +1,25 @@
+.link {
+  color: $text-color;
+}
+
+.link:active {
+  color: $link-color;
+}
+
+.link:visited {
+  color: $text-color;
+}
+
+.link:focus {
+  color: $link-color;
+}
+
+.link:hover {
+  color: $link-color;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}
